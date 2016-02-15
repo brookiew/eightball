@@ -6,3 +6,4 @@ var c = require("skilstak-colors");
 
 var out = process.stdout
 
+out.write(c.multi("Welcome to Waffles" + "\n");

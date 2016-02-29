@@ -4,7 +4,14 @@
 
 var c = require("skilstak-colors");
 
-var out = process.stdout
+var easterEggs = [
+  ["I'm hungry","why is history boring?"],
+  ["I like chocolate strawberries", "do you prefer icecream or milkshake?"]
 
-out.write(c.clear + 
-          c.multi("Welcome to Waffles" + "\n");
+];
+
+function print(message) {
+  process.stdout.write(message + "\n");
+}
+
+print(c.clear + c.multi("Welcome to Candy Land!" + "\n");

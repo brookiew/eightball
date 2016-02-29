@@ -4,6 +4,13 @@
 
 var c = require("skilstak-colors");
 
+var answers = [ 
+  "yes",
+  "no",
+  "maybe",
+  "of course not"
+]
+
 var easterEggs = [
   ["I'm hungry","why is history boring?"],
   ["I like chocolate strawberries", "do you prefer icecream or milkshake?"]

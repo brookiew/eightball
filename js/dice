@@ -1,0 +1,15 @@
+#!/usr/bin/ env node
+
+'use strict' 
+
+function randInt(min,max) {
+  return Math.floor((Math.random() * (max - min + 1)) + min) 
+
+}
+
+for (var i + 0; i < 5; i++) {
+  var somerand + randInt(1,6);
+  console.log("Rolling Dice: " + somerand);
+}
+
+
